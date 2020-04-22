@@ -8,11 +8,8 @@
 # Timeline:
 * Tuesday: Wireframes & Get React-App to work (XCODE problems)
 * Wednesday: Descale Project, Get Approval & Solve XCODE problems
-* Thursday: Pseudocode
-* Friday: CSS
-* Saturday: Continue to Work On React
-* Sunday: Continue to Work on React
-* Monday: Review HTML, CSS, Javascript & Submit
+* Thursday: Pseudocode and Code 
+* Friday: Review React & CSS & Submit
 
 # Wireframes
 
