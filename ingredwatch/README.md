@@ -4,6 +4,8 @@
 # Project Card: 
 ![alt text](https://github.com/Thandi227/Product-Analysis/blob/master/ingredwatch/wireframes/Mod%20Two%20Project/Mod%20Two%20Project.002.jpeg "Project Card")
 
+# Font: 
+* Playfair and Roboto
 
 # Timeline:
 * Tuesday: Wireframes & Get React-App to work (XCODE problems)
