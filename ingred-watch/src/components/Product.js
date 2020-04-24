@@ -15,6 +15,7 @@ class Product extends Component {
     componentDidMount () {
         axios.get('http://makeup-api.herokuapp.com/api/v1/products.json')
 
+//Here the state is being passed down as props to the child component
         .then(response => {
             console.log(response)
             this.setState({products: response.data})
@@ -31,9 +32,11 @@ class Product extends Component {
             <div>
                 List of Products
                 {
-                    products.length ?
-                    products.map(post => <div key={post.id}> {post.title}</div>) :
-                    null
+                   products.map(product => (
+                   <li key={product.id}>
+                       Name: {product.name}
+                   </li>
+                   ))
                 }
                 {errorMsg ? <div> {errorMsg} </div>:null}
             </div>
