@@ -38,6 +38,7 @@ class Search extends Component {
       const {name} =this.state
      return(
         <div> 
+
           <form onSubmit={this.submitHandler}>
               <div>
                   <input 
