@@ -14,23 +14,24 @@ class Search extends Component {
        }
    }
 
+//I used setState here because this is where the react app is being told that components and children of components need to be rerendered.  
+changeHandle = event => {
+    this.setState({[event.target.name]:event.target.value})
+}
+//cite:https://reactjs.org/docs/forms.html 
 
-   changeHandler = e => {
-       this.setState({[e.target.name]:e.target.value})
-   }
-
-   submitHandler = e => {
-        e.preventdefault ()
-        console.log(this.state)
-        axios.post('http://makeup-api.herokuapp.com/api/v1/products.json?brand=glossier', this.state)
-        .then(response => {
-            console.log(response)
-        })
-        .catch(error => {
-            console.log(error)
-        })
-     
-    }
+submitHandle = event => {
+     event.preventdefault ()
+     console.log(this.state)
+     axios.post('http://makeup-api.herokuapp.com/api/v1/products.json', this.state)
+     .then(response => {
+         console.log(response)
+     })
+     .catch(error => {
+         console.log(error)
+     })
+  
+ }
 
 //I'm using render here because I want to render different types of HTML elements into the DOM once the logic has been implemented 
 //Once the state changes it is being passed down as props to the child component and making the app render itself agin

@@ -32,11 +32,17 @@ class Product extends Component {
             <div>
                 List of Products
                 {
-                   products.map(product => (
-                   <li key={product.id}>
-                       Name: {product.name}
-                   </li>
-                   ))
+                    // products.length ?
+                    // products.map(post => <div key={post.id}> {post.title}</div>) :
+                    // null
+                    products.map( product => (
+                        <li key={product.id}>
+                        Name: {product.brand}
+                        </li>
+                    
+                        )
+                     )
+                 
                 }
                 {errorMsg ? <div> {errorMsg} </div>:null}
             </div>
