@@ -64,7 +64,7 @@ cite: https://reactjs.org/docs/dom-elements.html
     */
 }
                
-                  <button className="icon" type="submit"> <SearchIcon /> </button>
+                  <button className="icon" type="submit"> <SearchIcon classname="please change" /> </button>
 
                   {/* Button is used to submit the request */}
                   <hr/>
