@@ -2,7 +2,7 @@
 # API: https://public.opendatasoft.com/explore/dataset/cosmetic-ingredient-database-ingredients-and-fragrance-inventory/api/ 
 
 # Project Card: 
-![alt text](https://github.com/Thandi227/Product-Analysis/blob/master/ingredwatch/wireframes/Mod%20Two%20Project/Mod%20Two%20Project.002.jpeg "Project Card")
+![alt text](https://github.com/Thandi227/Product-Analysis/blob/master/ingred-watch/src/assets/wireframes/Mod%20Two%20Project.002.jpeg "Project Card")
 
 # Font: 
 * Playfair and Roboto
