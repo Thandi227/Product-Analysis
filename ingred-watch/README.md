@@ -21,4 +21,4 @@
 
 ![alt text](https://github.com/Thandi227/Product-Analysis/blob/master/ingred-watch/src/assets/wireframes/Mod%20Two%20Project.006.jpeg"Product Page")
 
-![alt text](https://github.com/Thandi227/Product-Analysis/blob/master/ingredwatch/wireframes/Mod%20Two%20Project/Mod%20Two%20Project.007.jpeg "Ingredient Page")
+![alt text](https://github.com/Thandi227/Product-Analysis/blob/master/ingred-watch/src/assets/wireframes/Mod%20Two%20Project.007.jpeg "Ingredient Page")
