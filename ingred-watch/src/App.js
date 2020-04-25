@@ -18,7 +18,7 @@ class App extends Component {
      return(
         <div classname = "App"> 
         <Search />
-        <h1> Learn More About The Products You're Interested In</h1>
+    
         
         <Product />
         </div>
