@@ -9,7 +9,7 @@ class navBar extends Component {
 
      return(
         <div> 
-      
+           <hr />
         </div>
      );
    }
