@@ -15,8 +15,9 @@
     padding: 16px;
     font-size: 36px;
     font-style: bold;
-    font-family: "Playfair Display";
+    font-family: "Roboto";
     color: #444;
+    box-sizing: none;
     outline: none;
 }
 
