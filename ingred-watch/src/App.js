@@ -17,11 +17,8 @@ class App extends Component {
 
 //Within the return function there are class based child components (Search and Product) that are being rendered inside the parent component, APP
      return(
-        <div classname = "App"> 
-        <Nav />
-        <Search />    
-        <Product />
-        </div>
+
+     
      );
    }
 }
