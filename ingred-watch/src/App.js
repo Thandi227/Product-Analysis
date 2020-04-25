@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css'
 import Search from './components/search.js'
 import Product from './components/product.js'
-import Nav from './components/Nav.js/index.js'
+import Nav from './components/Nav.js'
 
 
 //Here my component is being imported from the package react, this is important because it converts the class into a component. 
