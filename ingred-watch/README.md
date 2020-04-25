@@ -17,8 +17,8 @@
 
 ![alt text](https://github.com/Thandi227/Product-Analysis/blob/master/ingred-watch/src/assets/wireframes/Mod%20Two%20Project.003.jpeg "Landing Page")
 
-![alt text](https://github.com/Thandi227/Product-Analysis/blob/master/ingred-watch/src/assets/wireframes/Mod%20Two%20Project.004.jpeg"Search Pagee")
+![alt text](https://github.com/Thandi227/Product-Analysis/blob/master/ingred-watch/src/assets/wireframes/Mod%20Two%20Project.004.jpeg "Search Pagee")
 
-![alt text](https://github.com/Thandi227/Product-Analysis/blob/master/ingred-watch/src/assets/wireframes/Mod%20Two%20Project.006.jpeg"Product Page")
+![alt text](https://github.com/Thandi227/Product-Analysis/blob/master/ingred-watch/src/assets/wireframes/Mod%20Two%20Project.006.jpeg "Product Page")
 
 ![alt text](https://github.com/Thandi227/Product-Analysis/blob/master/ingred-watch/src/assets/wireframes/Mod%20Two%20Project.007.jpeg "Ingredient Page")
