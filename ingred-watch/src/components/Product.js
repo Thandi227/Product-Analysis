@@ -31,7 +31,6 @@ class Product extends Component {
         const { products, errorMsg } = this.state
         return (
             <div>
-                List of Products
                 {
                     products.map( product => (
                         <li key={product.id}>
