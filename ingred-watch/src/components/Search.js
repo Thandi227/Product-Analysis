@@ -27,7 +27,7 @@ changeHandle = event => {
 submitHandle = event => {
      event.preventdefault ()
      console.log(this.state)
-     axios.post('http://makeup-api.herokuapp.com/api/v1/products.json?brand=fenty', this.state)
+     axios.post('http://makeup-api.herokuapp.com/api/v1/products.json?brand=clinique', this.state)
      .then(response => {
          console.log(response)
      })
