@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css'
 import Search from './components/search.js'
 import Product from './components/product.js'
-import NavBar from './components/navBar.js'
+import Nav from './components/Nav.js/index.js'
 
 
 //Here my component is being imported from the package react, this is important because it converts the class into a component. 
@@ -18,9 +18,9 @@ class App extends Component {
 //Within the return function there are class based child components (Search and Product) that are being rendered inside the parent component, APP
      return(
         <div classname = "App"> 
+        <Nav />
         <Search />    
         <Product />
-        <navBar />
         </div>
      );
    }
