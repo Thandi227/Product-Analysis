@@ -10,8 +10,9 @@ class Search extends Component {
    constructor(props){
        super(props)
        this.state = {
-           function:''
-       }
+           query:'',
+           loading: false
+       };
    }
 
 //I used setState here because this is where the react app is being told that components and children of components need to be rerendered.  
@@ -39,13 +40,14 @@ submitHandle = event => {
       const {name} =this.state
      return(
         <div> 
-
           <form onSubmit={this.submitHandler}>
-              <div>
+              <div className="search-tag" htmlFor="search-input">
                   <input 
                   type= "text" 
                   name= "name" 
-                  value= {name} 
+                  id ="search-input"
+                  value= {name}
+                  placeholder = "Search Product Name..."
                   onChange= {this.changeHandler}
                   />
 
