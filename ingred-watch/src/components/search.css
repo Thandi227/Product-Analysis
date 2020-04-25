@@ -20,3 +20,7 @@
     box-sizing: border-box;
     outline: none;
 }
+
+.instruct{
+    text-align: center;
+}
