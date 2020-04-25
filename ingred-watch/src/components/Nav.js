@@ -6,8 +6,8 @@ class Nav extends Component {
    render (){
      return(
         <div> 
-           <h2>Product</h2>
-           <hr />
+           <h2 className="product">Product</h2>
+           <hr className="line"/>
         </div>
      );
    }
