@@ -16,8 +16,11 @@
     font-size: 36px;
     font-style: bold;
     font-family: "Roboto";
-    color: #444;
-    box-sizing: none;
+    color: orangered;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style:none;
+    border-bottom-style: none;
     outline: none;
     text-align: center
 }
@@ -35,6 +38,5 @@ hr {
     position: absolute;
     top: 25px;
     right: 10px;
-    width:500px;
-    height: 500px;
+    border:none;
 }
