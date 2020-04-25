@@ -19,9 +19,14 @@
     color: #444;
     box-sizing: none;
     outline: none;
+    text-align: center
 }
 
 .instruct{
     text-align: center;
     font-family: "Playfair Display";
+}
+
+hr {
+    width: 100%
 }
