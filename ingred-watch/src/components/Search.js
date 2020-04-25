@@ -7,6 +7,7 @@ import './search.css'
 
 class Search extends Component {
 
+
 //Im using props because they allow me to pass data from one component to another component, but since props are read-only I need to use state because it is what makes my React components interactive. This helps so that I can have conditional rendering in my react app.  Also, when my state changes, then the corresponding react component gets rendered again. 
 
    constructor(props){
@@ -40,6 +41,7 @@ submitHandle = event => {
 //Once the state changes it is being passed down as props to the child component and making the app render itself agin
    render (){
       const {name} =this.state
+      
      return(
       
         
@@ -62,9 +64,10 @@ cite: https://reactjs.org/docs/dom-elements.html
     */
 }
                
-                  <button type="submit"> <SearchIcon /> </button>
+                  <button type="submit"> <SearchIcon className="icon"/> </button>
 
                   {/* Button is used to submit the request */}
+                  <hr/>
 
                   <h1 className="instruct"> Learn More About The Products You're Interested In</h1>
               </div>
