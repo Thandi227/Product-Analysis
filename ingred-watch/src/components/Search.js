@@ -69,7 +69,7 @@ cite: https://reactjs.org/docs/dom-elements.html
                   {/* Button is used to submit the request */}
                   <hr/>
 
-                  <h1 className="instruct"> Learn More About The Products You're Interested In</h1>
+                  <h1 className="instruct"> Learn More About <br /> Products You're Interested In</h1>
               </div>
           </form>
         </div>
