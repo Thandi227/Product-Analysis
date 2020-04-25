@@ -54,7 +54,7 @@ submitHandle = event => {
                   name= "name" 
                   id ="search-input"
                   value= {name}
-                  placeholder = "Search..."
+                  placeholder = "search"
                   onChange= {this.changeHandler}
                   />
 {/* Onchange lets me know that whenever a form field is changed, then this event needs to fire. React relies on the onchange events to handle what the user inputs in real time. I use value here to set the value of the component 
