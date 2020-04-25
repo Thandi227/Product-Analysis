@@ -13,7 +13,8 @@ class Product extends Component {
     }
 //invoking get method on axios library
     componentDidMount () {
-        axios.get('http://makeup-api.herokuapp.com/api/v1/products.json')
+        axios.get('http://makeup-api.herokuapp.com/api/v1/products.json?brand=clinique')
+//I want to only get products from one brand since its alot of info and I was getting confused by having multiple brands present. I felt like it would be easier to see the name for each product in the specific brand - in this case it was clinique
 
 //Here the state is being passed down as props to the child component
         .then(response => {
@@ -32,16 +33,13 @@ class Product extends Component {
             <div>
                 List of Products
                 {
-                    // products.length ?
-                    // products.map(post => <div key={post.id}> {post.title}</div>) :
-                    // null
                     products.map( product => (
                         <li key={product.id}>
-                        Name: {product.brand}
+                        Name: {product.name}
                         </li>
                     
                         )
-                     )
+                 )
                  
                 }
                 {errorMsg ? <div> {errorMsg} </div>:null}
