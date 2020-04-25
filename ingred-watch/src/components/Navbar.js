@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './navBar.css'
 
 
 class navBar extends Component {
@@ -9,6 +10,7 @@ class navBar extends Component {
 
      return(
         <div> 
+           <h2>Product</h2>
            <hr />
         </div>
      );
