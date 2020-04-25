@@ -1,3 +1,21 @@
-.search-label{
+.search-tag{
     position: relative;
+}
+
+.holder{
+    margin: 36px auto;
+    width: 100%;
+    max-width: 800px;
+
+
+}
+
+.holder input {
+    width: 100%;
+    padding: 16px;
+    font-size: 36px;
+    font-style: italic;
+    color: #444;
+    box-sizing: border-box;
+    outline: none;
 }

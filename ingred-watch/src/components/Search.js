@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios'
 import SearchIcon from '@material-ui/icons/Search';
+import './search.css'
 
 //Here my component is being imported from the package react, this is important because it converts the class into a component. This is going to help with props.
 
@@ -42,9 +43,7 @@ submitHandle = event => {
      return(
       
         
-        <div> 
-        
-        <h2>products</h2>
+        <div className="holder"> 
               
           <form onSubmit={this.submitHandler}>
               <div className="search-tag" htmlFor="search-input">
